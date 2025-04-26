@@ -1,0 +1,144 @@
+<!-- KaTeX -->
+<!-- 
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css"
+  integrity="sha384-zh0CIslj+VczCZtlzBcjt5ppRcsAmDnRem7ESsYwWwg3m/OaJ2l4x7YBZl9Kxxib"
+  crossorigin="anonymous"
+>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js"
+  integrity="sha384-Rma6DA2IPUwhNxmrB/7S3Tno0YY7sFu9WSYMCuulLhIqYSGZ2gKCJWIqhBWqMQfh"
+  crossorigin="anonymous">
+</script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js"
+  integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh"
+  crossorigin="anonymous"
+  onload="renderMathInElement(document.body);">
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: '\\[', right: '\\]', display: true},   // block
+        {left: '$$', right: '$$', display: true},     // block
+        {left: '\\(', right: '\\)', display: false},  // inline
+      ],
+      throwOnError : false
+    });
+  });
+</script> -->
+
+
+
+<!-- MathJax engine  -->
+
+<!-- <script>
+  window.MathJax = {
+    loader: { load: ['input/tex', 'output/chtml'] },
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)'], ['(|','|)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      tags: 'ams',
+      macros: {
+         brk: '\\allowbreak'
+      }
+    },
+    chtml: {
+      scale: 1.2,
+      displayAlign: 'center',
+      displayIndent: '0',
+      displayOverflow: 'linebreak',
+      linebreaks: {
+        automatic: true,
+        width: 'container',
+        lineleading: 0.2,
+        LinebreakVisitor: null
+      }
+    }
+  };
+  </script>
+  <script async
+    src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0-alpha.1/es5/tex-mml-chtml.js">
+  </script> -->
+
+  <script>
+    window.MathJax = {
+      loader: { 
+        load: ['input/tex', 'output/chtml', 'ui/menu'] 
+      },
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)'], ['(|','|)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']],
+        tags: 'ams',
+        macros: {
+          brk: '\\allowbreak'
+        },
+        // operator breaking rules
+        // options: {
+        //   breakAt: {
+        //     bin: [
+        //       '+', '-', '\\pm', '\\times', '\\div', '\\ast',
+        //       '\\oplus', '\\otimes', '=', '\\neq'
+        //     ],
+        //     rel: ['=', '\\neq', '<', '>', '\\leq', '\\geq']
+        //   }
+        // }
+      },
+      chtml: {
+        // scale: 1.2,
+        displayAlign: 'center',
+        displayIndent: '0',
+        displayOverflow: 'linebreak',
+        linebreaks: {
+          automatic: true,
+          width: 'container',
+          lineleading: 0.2,
+          // Set explicit break priorities
+          // rules: {
+          //   '\\+': 4,       // Higher priority for +
+          //   '-': 4,         // Higher priority for -
+          //   '\\times': 3,   // Medium priority for *
+          //   '\\div': 3,     // Medium priority for /
+          //   '=': 5         // Highest priority for =
+          // }
+        }
+      },
+      svg: {
+        linebreaks: { automatic: true }
+      }
+    };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0-beta.3/tex-mml-chtml.js"></script>
+    <!-- <script async src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0-alpha.1/es5/tex-mml-chtml.js"></script> -->
+
+    
+<!-- 
+    <style>
+      /* Scale only inline math */
+      mjx-container:not(.MJXc-display) {
+        font-size: 1.2em;      /* Inline scaling */
+        /* line-height: 12;      Adjust line spacing */
+      }
+      
+      /* Reset display math to normal size */
+      .MJXc-display {
+        font-size: 1em;
+      }
+    </style>
+-->
+
+
+<!-- <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Math&display=swap');
+
+    .katex .mathnormal, .katex .mathrm, .katex .amsrm {
+        font-family: "Noto Sans Math", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+</style> -->
+

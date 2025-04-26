@@ -1,0 +1,27 @@
+{
+  "name": "hugo-noir",
+  "version": "1.0.0",
+  "description": "<h1 align=center>Hugo Dark Noir | <a href=\"https://pranamshetty.dev\" rel=\"nofollow\">Demo</a></h1>",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prxshetty/hugo-noir.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/prxshetty/hugo-noir/issues"
+  },
+  "homepage": "https://github.com/prxshetty/hugo-noir#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4"
+  }
+}

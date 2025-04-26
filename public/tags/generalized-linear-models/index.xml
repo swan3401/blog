@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generalized Linear Models on Hafizulloh Ergashev</title>
+    <link>https://example.dev/tags/generalized-linear-models/</link>
+    <description>Recent content in Generalized Linear Models on Hafizulloh Ergashev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.dev/tags/generalized-linear-models/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Univariate Linear Regression</title>
+      <link>https://example.dev/blogs/univariate-linear-regression/</link>
+      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.dev/blogs/univariate-linear-regression/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Univariate linear regression&lt;/strong&gt; is a statistical technique that models the relationship between a single independent variable and a single dependent variable.&lt;/p&gt;&#xA;&lt;p&gt;Such a model can be utilised to predict a dependent variable for a given independent variable.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The term &lt;em&gt;&amp;lsquo;univariate&amp;rsquo;&lt;/em&gt; simply means &amp;lsquo;one variable&amp;rsquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Examples of such relationships might include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Egg size and required boiling time&lt;/li&gt;&#xA;&lt;li&gt;Laundry size and required amount of detergent&lt;/li&gt;&#xA;&lt;li&gt;Height and weight&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The model is expressed as:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
