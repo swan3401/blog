@@ -195,6 +195,16 @@ featured = true
 featured_image = "/blogs/univariate-linear-regression//img.png"
 link = "/blogs/univariate-linear-regression/"
 
+
+[[params.blogs]]
+title = "Al and Machine Learning in Criminal Investigations"
+date = "2025-05-17"
+summary = "Report on webinar led by Katharine Pearson. It examines role of AI in modern policing: innovative applications and ethical challenges."
+tags = ["Law", "Ethics"]
+featured = false
+# featured_image = "/blogs/univariate-linear-regression//img.png"
+link = "/blogs/ai-and-machine-learning-in-criminal-investigations/"
+
 # [[params.blogs]]
 # title = "Lorem Ipsum Systems"
 # date = "2025-03-15"
