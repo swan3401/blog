@@ -31,7 +31,7 @@ The use of algorithmic tools in policing could lead to reduced pressure on resou
 The Brennan Center for Justice also notes such risks of reproducing existing racial biases ([Predictive Policing Explained](https://www.brennancenter.org/our-work/research-reports/predictive-policing-explained)). The Viogen case in Spain, where a misclassified risk led to a tragic outcome, illustrates the dangers of over-reliance on AI.
 
 ## Future Trends and Developments
-The future of AI in policing looks promising. Quantum computers could allow faster data analysis, enhance optimization and more complex simulations, improving predictive models ([Your Quick Guide to Quantum and AI: The Future of Computing or Just Hype?](https://meetiqm.com/blog/quantum-ai-the-future-of-computing-or-just-hype/)). Achievements in natural language processing (NLP) could be used for threat detection through real-time analysis of communication data.
+The future of AI in policing looks promising. Quantum computers could allow faster data analysis and more complex simulations, improving predictive models ([Your Quick Guide to Quantum and AI: The Future of Computing or Just Hype?](https://meetiqm.com/blog/quantum-ai-the-future-of-computing-or-just-hype/)). Achievements in natural language processing (NLP) could be used for threat detection through real-time analysis of communication data.
 
 However, these advancements require ethical considerations to prevent misuse.
 
