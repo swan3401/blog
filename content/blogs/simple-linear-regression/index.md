@@ -1,15 +1,15 @@
 ---
-title: "Univariate Linear Regression"
+title: "Univariate Linear Regression: Simple Linear Regression"
 date: "2025-04-17"
 draft: false
 tags: ["Generalized Linear Models", "Linear regression", "Gradient Descent"]
 categories: ["Theory", "Supervised Learning"]
-description: "This article provides a comprehensive explanation of univariate linear regression. It covers topics such as linear functions and adjusting parameters of linear regression using gradient descent."
-featured_image: "img.png"
+description: "This article provides a comprehensive explanation of simple linear regression. It covers topics such as linear functions and adjusting parameters of linear regression using gradient descent."
+# featured_image: "img.png"
 featured: true
 ---
 
-**Univariate linear regression** is a statistical technique that models the relationship between a single independent variable and a single dependent variable.
+**Univariate linear regression** is a statistical technique that models the relationship between independent variables and single dependent variable.
 
 Such a model can be utilised to predict a dependent variable for a given independent variable.
 
@@ -19,6 +19,8 @@ Examples of such relationships might include:
 - Egg size and required boiling time
 - Laundry size and required amount of detergent
 - Height and weight
+
+This article will examine **simple linear regression**, where the model only includes one independent variable.
 
 The model is expressed as:
 
@@ -264,7 +266,7 @@ $$
 
 ---
 
-In simple linear regression the optimal line that best fits the data is determined by minimising the cost function. While it is straightforward to identify this line in simple/univariate linear regression by brute force, this becomes impractical when there are more than two independent variables; each independent variable requires an additional axis, or dimension, on a graph. Although computers can visualise such graphs, it is impossible to understand what exactly is being plotted. <br>
+In simple linear regression the optimal line that best fits the data is determined by minimising the cost function. While it is straightforward to identify this line in simple linear regression by brute force, this becomes impractical when there are more than two independent variables; each independent variable requires an additional axis, or dimension, on a graph. Although computers can visualise such graphs, it is impossible to understand what exactly is being plotted. <br>
 One of the methods used to minimise the cost function is called *'gradient descent'*.
 
 ## Gradient Descent
@@ -455,4 +457,4 @@ should be taken the partial derivatives:
 
 The parameters of hypothesis should be updated simultaneously:
 1. $$ w_{new} := w - \alpha \times \frac{dJ}{dw} $$
-2. $$ b_{new} := w - \alpha \times \frac{dJ}{db} $$
+2. $$ b_{new} := b - \alpha \times \frac{dJ}{db} $$

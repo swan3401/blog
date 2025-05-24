@@ -3,7 +3,7 @@
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Univariate Linear Regression - Hafizulloh Ergashev</title>
+        <title>Univariate Linear Regression: Simple Linear Regression - Hafizulloh Ergashev</title>
         
 
 
@@ -357,7 +357,7 @@
             
     <div class="w-full md:w-4/5 lg:w-3/4 xl:w-2/3 mx-auto py-12">
         <div class="max-w-5xl mx-auto p-8 border border-gray-800 rounded-2xl bg-[#121212]">
-            <h1 class="text-4xl font-bold mb-4">Univariate Linear Regression</h1>
+            <h1 class="text-4xl font-bold mb-4">Univariate Linear Regression: Simple Linear Regression</h1>
             
                 <div class="flex items-center gap-4 mb-8 text-gray-400">
                     <time datetime="2025-04-17">April 17, 2025</time>
@@ -376,7 +376,7 @@
             
               
             <div class="prose prose-invert max-w-none post-content">
-                <p><strong>Univariate linear regression</strong> is a statistical technique that models the relationship between a single independent variable and a single dependent variable.</p>
+                <p><strong>Univariate linear regression</strong> is a statistical technique that models the relationship between independent variables and single dependent variable.</p>
 <p>Such a model can be utilised to predict a dependent variable for a given independent variable.</p>
 <blockquote>
 <p>The term <em>&lsquo;univariate&rsquo;</em> simply means &lsquo;one variable&rsquo;</p></blockquote>
@@ -386,6 +386,7 @@
 <li>Laundry size and required amount of detergent</li>
 <li>Height and weight</li>
 </ul>
+<p>This article will examine <strong>simple linear regression</strong>, where the model only includes one independent variable.</p>
 <p>The model is expressed as:</p>
 $$
 \begin{aligned}
@@ -597,7 +598,7 @@ $$<hr>
 } */
 </style> -->
 <hr>
-<p>In simple linear regression the optimal line that best fits the data is determined by minimising the cost function. While it is straightforward to identify this line in simple/univariate linear regression by brute force, this becomes impractical when there are more than two independent variables; each independent variable requires an additional axis, or dimension, on a graph. Although computers can visualise such graphs, it is impossible to understand what exactly is being plotted. <br>
+<p>In simple linear regression the optimal line that best fits the data is determined by minimising the cost function. While it is straightforward to identify this line in simple linear regression by brute force, this becomes impractical when there are more than two independent variables; each independent variable requires an additional axis, or dimension, on a graph. Although computers can visualise such graphs, it is impossible to understand what exactly is being plotted. <br>
 One of the methods used to minimise the cost function is called <em>&lsquo;gradient descent&rsquo;</em>.</p>
 <h2 id="gradient-descent">Gradient Descent</h2>
 <p><strong>Gradient descent</strong> is an iterative optimisation algorithm for minimising a differentiable function.<br>
@@ -772,7 +773,7 @@ $$<p>should be taken the partial derivatives:</p>
 <p>The parameters of hypothesis should be updated simultaneously:</p>
 <ol>
 <li>$$ w_{new} := w - \alpha \times \frac{dJ}{dw} $$</li>
-<li>$$ b_{new} := w - \alpha \times \frac{dJ}{db} $$</li>
+<li>$$ b_{new} := b - \alpha \times \frac{dJ}{db} $$</li>
 </ol>
 
             </div>

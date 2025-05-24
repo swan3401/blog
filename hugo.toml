@@ -186,15 +186,14 @@ url = "https://example.com/cert"
 # image = "/images/projects/excepteur.jpg"
 # link = "https://github.com/loremipsum/excepteur"
 
-[[params.blogs]]
-title = "Univariate Linear Regression"
-date = "2025-04-17"
-summary = "This article provides a comprehensive explanation of univariate linear regression. It covers topics such as linear functions and adjusting parameters of linear regression using gradient descent."
-tags = ["Generalized Linear Models", "Linear regression", "Gradient Descent"]
-featured = true
-featured_image = "/blogs/univariate-linear-regression//img.png"
-link = "/blogs/univariate-linear-regression/"
 
+[[params.blogs]]
+title = "Multiple Linear Regression"
+date = "2025-05-23"
+summary = "This post is about multiple linear regression, gradient descent, and normal equation."
+tags = ["Generalized Linear Models", "Linear regression", "Gradient Descent", "Normal Equation"]
+featured = true
+link = "/blogs/multiple-linear-regression/"
 
 [[params.blogs]]
 title = "Al and Machine Learning in Criminal Investigations"
@@ -202,8 +201,17 @@ date = "2025-05-17"
 summary = "Report on webinar led by Katharine Pearson. It examines role of AI in modern policing: innovative applications and ethical challenges."
 tags = ["Law", "Ethics"]
 featured = false
-# featured_image = "/blogs/univariate-linear-regression//img.png"
 link = "/blogs/ai-and-machine-learning-in-criminal-investigations/"
+
+[[params.blogs]]
+title = "Univariate Linear Regression: Simple Linear Regression"
+date = "2025-04-17"
+summary = "This article provides a comprehensive explanation of simple linear regression. It covers topics such as linear functions and adjusting parameters of linear regression using gradient descent."
+tags = ["Generalized Linear Models", "Linear regression", "Gradient Descent"]
+featured = true
+# featured_image = "/blogs/simple-linear-regression/img.png"
+link = "/blogs/simple-linear-regression/"
+
 
 # [[params.blogs]]
 # title = "Lorem Ipsum Systems"
@@ -213,7 +221,7 @@ link = "/blogs/ai-and-machine-learning-in-criminal-investigations/"
 # content = """
 # Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...
 # """
-# # link = "https://medium.com/@loremipsum/lorem-systems"
+# link = "https://medium.com/@loremipsum/lorem-systems"
 # link = "/blogs/univariate_linear_regression.md"
 
 # [[params.blogs]]
