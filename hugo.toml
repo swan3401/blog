@@ -20,7 +20,7 @@ canonifyURLs = true
   # profile_image = "/images/knife.png"
 
 # Social media links
-discord = "@constantflaneur"
+discord = "constantflaneur" #  https://discord.com/users/1066625615802929172
 github = "https://github.com/swan3401"
 github_username = "swan3401"
 email = "hafizullohergashev@gmail.com"
@@ -30,10 +30,10 @@ medium = "https://medium.com/@constantflaneur"
 linkedin = "https://www.linkedin.com/in/constantflaneur"
 linkedin_username = "Hafizulloh Ergashev"
 instagram = "nothing for now"
-leetcode = "nothing for now"
-leetcode_username = "nothing for now"
-monkeytype = "nothing for now"
-monkeytype_username = "nothing for now"
+leetcode = "https://leetcode.com/u/swan3401/"
+leetcode_username = "swan3401"
+monkeytype = "https://monkeytype.com/profile/drasa"
+monkeytype_username = "drasa"
 kaggle = "https://www.kaggle.com/hafizullohergashev"
 kaggle_username = "hafizullohergashev"
 
@@ -70,6 +70,29 @@ url = "https://example.com/cert"
 # title = "Google Cloud ML Professional"
 # date = "March 2024" 
 # url = "https://example.com/cert-gcp"
+
+# [[params.experience]]
+# company = "Lorem Technologies"
+# role = "AI Research Engineer"
+# period = "Jan 2023 - Dec 2023"
+# logo = "/images/company/lorem.png"
+# description = "Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
+# responsibilities = [
+#     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+#     "Ut enim ad minim veniam, quis nostrud exercitation",
+#     "Duis aute irure dolor in reprehenderit in voluptate",
+#     "Excepteur sint occaecat cupidatat non proident"
+# ]
+
+[[params.education]]
+institution = "University of Wolverhampton"
+role = "BSc (Hons) Artificial Intelligence"
+period = "Oct 2023 - May 2026"
+
+[[params.education]]
+institution = "International Digital University"
+role = "Foundation in Business"
+period = "Oct 2021 - May 2022"
 
 # [[params.experience]]
 # company = "Lorem Technologies"

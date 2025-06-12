@@ -458,3 +458,9 @@ should be taken the partial derivatives:
 The parameters of hypothesis should be updated simultaneously:
 1. $$ w_{new} := w - \alpha \times \frac{dJ}{dw} $$
 2. $$ b_{new} := b - \alpha \times \frac{dJ}{db} $$
+
+---
+
+**Next article:** [Multiple Linear Regression](/blogs/multiple-linear-regression/)
+
+---

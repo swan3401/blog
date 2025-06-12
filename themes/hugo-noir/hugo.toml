@@ -54,6 +54,12 @@ title = "Google Cloud ML Professional"
 date = "March 2024" 
 url = "https://example.com/cert-gcp"
 
+
+[[params.education]]
+institution = "Lorem Institution"
+role = "Student of Lorem institution"
+period = "Oct 2023 - May 2026"
+
 [[params.experience]]
 company = "Lorem Technologies"
 role = "AI Research Engineer"

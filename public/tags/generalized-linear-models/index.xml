@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Generalized Linear Models on Hafizulloh Ergashev</title>
-    <link>http://localhost:1313/tags/generalized-linear-models/</link>
+    <link>http://localhost:33591/tags/generalized-linear-models/</link>
     <description>Recent content in Generalized Linear Models on Hafizulloh Ergashev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/generalized-linear-models/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:33591/tags/generalized-linear-models/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multiple Linear Regression</title>
-      <link>http://localhost:1313/blogs/multiple-linear-regression/</link>
+      <link>http://localhost:33591/blogs/multiple-linear-regression/</link>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/multiple-linear-regression/</guid>
+      <guid>http://localhost:33591/blogs/multiple-linear-regression/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Previous article:&lt;/strong&gt; &lt;a href=&#34;../../blogs/simple-linear-regression/&#34;&gt;Simple Linear Regression&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Multiple linear regression&lt;/strong&gt; (MLR) is an extension of simple linear regression (SLR) that enables multiple independent variables to be included in the prediction of the dependent variable.&lt;/p&gt;&#xA;&lt;p&gt;The model was previously represented as follows:&lt;/p&gt;&#xA;$$&#xD;&#xA;    \hat{y} = wx + b&#xD;&#xA;$$&lt;p&gt;where:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;x&lt;/strong&gt; is an input to the model.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;w&lt;/strong&gt; is a coefficient that defines how the target variable responds to each &lt;em&gt;unit change in x&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;b&lt;/strong&gt; is the base value of the outcome when &lt;em&gt;x = 0&lt;/em&gt; (i.e. outcome unaffected by the independent variable). However, its more important role is positioning the best fitting line along the y-axis (along axis that represents the outcome).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Multiple linear regression keeps the pattern and represented as:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Univariate Linear Regression: Simple Linear Regression</title>
-      <link>http://localhost:1313/blogs/simple-linear-regression/</link>
+      <link>http://localhost:33591/blogs/simple-linear-regression/</link>
       <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/simple-linear-regression/</guid>
+      <guid>http://localhost:33591/blogs/simple-linear-regression/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Univariate linear regression&lt;/strong&gt; is a statistical technique that models the relationship between independent variables and single dependent variable.&lt;/p&gt;&#xA;&lt;p&gt;Such a model can be utilised to predict a dependent variable for a given independent variable.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The term &lt;em&gt;&amp;lsquo;univariate&amp;rsquo;&lt;/em&gt; simply means &amp;lsquo;one variable&amp;rsquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Examples of such relationships might include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Egg size and required boiling time&lt;/li&gt;&#xA;&lt;li&gt;Laundry size and required amount of detergent&lt;/li&gt;&#xA;&lt;li&gt;Height and weight&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This article will examine &lt;strong&gt;simple linear regression&lt;/strong&gt;, where the model only includes one independent variable.&lt;/p&gt;</description>
     </item>
   </channel>
