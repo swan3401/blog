@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hafizulloh Ergashev</title>
-    <link>http://localhost:33591/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Hafizulloh Ergashev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:33591/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Activity Report</title>
+      <link>http://localhost:1313/categories/activity-report/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/activity-report/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Supervised Learning</title>
-      <link>http://localhost:33591/categories/supervised-learning/</link>
+      <link>http://localhost:1313/categories/supervised-learning/</link>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33591/categories/supervised-learning/</guid>
+      <guid>http://localhost:1313/categories/supervised-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Theory</title>
-      <link>http://localhost:33591/categories/theory/</link>
+      <link>http://localhost:1313/categories/theory/</link>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33591/categories/theory/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Activity Report</title>
-      <link>http://localhost:33591/categories/activity-report/</link>
-      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33591/categories/activity-report/</guid>
+      <guid>http://localhost:1313/categories/theory/</guid>
       <description></description>
     </item>
   </channel>

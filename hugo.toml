@@ -209,6 +209,14 @@ period = "Oct 2021 - May 2022"
 # image = "/images/projects/excepteur.jpg"
 # link = "https://github.com/loremipsum/excepteur"
 
+[[params.blogs]]
+title = "Cybersecurity: Attack and Defence in the Era of AI"
+date = "2025-06-20"
+summary = "This post is based on webinar that brought together cybersecurity and AI experts to discuss the evolving threat landscape around artificial intelligence as it becomes increasingly integrated into business operations."
+tags = ["Cybersecurity", "Ethics"]
+featured = false
+link = "/blogs/cybersecurity-attack-and-defence-in-the-era-of-ai/"
+
 
 [[params.blogs]]
 title = "Multiple Linear Regression"

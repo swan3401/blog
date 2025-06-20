@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Law on Hafizulloh Ergashev</title>
-    <link>http://localhost:33591/tags/law/</link>
+    <link>http://localhost:1313/tags/law/</link>
     <description>Recent content in Law on Hafizulloh Ergashev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:33591/tags/law/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/law/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Al and Machine Learning in Criminal Investigations: Opportunities and Challenges</title>
-      <link>http://localhost:33591/blogs/ai-and-machine-learning-in-criminal-investigations/</link>
+      <link>http://localhost:1313/blogs/ai-and-machine-learning-in-criminal-investigations/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33591/blogs/ai-and-machine-learning-in-criminal-investigations/</guid>
+      <guid>http://localhost:1313/blogs/ai-and-machine-learning-in-criminal-investigations/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;On 6 May 2025, I attended a webinar &amp;ldquo;AI and Machine Learning in Criminal Investigations&amp;rdquo;. It was presented by Katharine Pearson. In the webinar an overview of the historical development of AI, its current applications in law enforcement, the ethical issues it raises were discussed. This report examines the potential uses of AI in policing, bias and privacy challenges, and the future of AI-driven investigations. Based on insights from the webinar, this report explores how AI can improve the criminal justice system while considering risks.&lt;/p&gt;</description>
     </item>
   </channel>

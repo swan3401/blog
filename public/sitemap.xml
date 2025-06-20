@@ -2,60 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:33591/blogs/</loc>
+    <loc>http://localhost:1313/categories/activity-report/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cybersecurity/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/cybersecurity-attack-and-defence-in-the-era-of-ai/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ethics/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/generalized-linear-models/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33591/categories/</loc>
+    <loc>http://localhost:1313/tags/gradient-descent/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33591/tags/generalized-linear-models/</loc>
+    <loc>http://localhost:1313/tags/linear-regression/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33591/tags/gradient-descent/</loc>
+    <loc>http://localhost:1313/blogs/multiple-linear-regression/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33591/</loc>
+    <loc>http://localhost:1313/tags/normal-equation/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33591/tags/linear-regression/</loc>
+    <loc>http://localhost:1313/categories/supervised-learning/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33591/blogs/multiple-linear-regression/</loc>
+    <loc>http://localhost:1313/categories/theory/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33591/tags/normal-equation/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:33591/categories/supervised-learning/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:33591/tags/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:33591/categories/theory/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:33591/categories/activity-report/</loc>
+    <loc>http://localhost:1313/blogs/ai-and-machine-learning-in-criminal-investigations/</loc>
     <lastmod>2025-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33591/blogs/ai-and-machine-learning-in-criminal-investigations/</loc>
+    <loc>http://localhost:1313/tags/law/</loc>
     <lastmod>2025-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33591/tags/ethics/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:33591/tags/law/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:33591/blogs/simple-linear-regression/</loc>
+    <loc>http://localhost:1313/blogs/simple-linear-regression/</loc>
     <lastmod>2025-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33591/about/about/</loc>
+    <loc>http://localhost:1313/about/about/</loc>
   </url><url>
-    <loc>http://localhost:33591/contact/contact/</loc>
+    <loc>http://localhost:1313/contact/contact/</loc>
   </url><url>
-    <loc>http://localhost:33591/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:33591/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url>
 </urlset>
