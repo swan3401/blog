@@ -26,3 +26,5 @@ This conference is a chance to see AI in healthcare from a fresh perspective. Yo
 
 The presentation will take place at the International Digital University (IDU) campus on 17 September. There will also be an opportunity to participate online.
 I will update this post closer to the event date with the exact details, including the time and the online meeting link.
+
+![Poster](poster.png)
