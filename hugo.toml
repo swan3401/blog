@@ -62,9 +62,9 @@ date = "March 2025"
 # date = "May 2018"
 
 [[params.certifications]]
-title = "AI Engineering Specialist"
-date = "Jan 2025"
-url = "https://example.com/cert"
+title = "Machine Learning with Python"
+date = "June 2025"
+url = "https://www.freecodecamp.org/certification/swan3104/machine-learning-with-python-v7"
 
 # [[params.certifications]]
 # title = "Google Cloud ML Professional"
@@ -208,6 +208,15 @@ period = "Oct 2021 - May 2022"
 # tech = "Python, FastAPI, Redis, Kubernetes"
 # image = "/images/projects/excepteur.jpg"
 # link = "https://github.com/loremipsum/excepteur"
+
+[[params.blogs]]
+title = "Conference invitation"
+date = "2025-06-27"
+summary = "I would like to invite you to a webinar that I am organising on 17 September 2025"
+tags = ["Other"]
+featured = true
+link = "/blogs/event-invitation/"
+
 
 [[params.blogs]]
 title = "Cybersecurity: Attack and Defence in the Era of AI"

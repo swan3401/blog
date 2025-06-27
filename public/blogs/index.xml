@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Hafizulloh Ergashev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI in Healthcare: Interpretability, Ethics, and Real-World Application</title>
+      <link>http://localhost:1313/blogs/event-invitation/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/event-invitation/</guid>
+      <description>&lt;p&gt;Hey everyone! I would like to invite you to my upcoming conference on 17 September.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-the-conference-about&#34;&gt;What’s the Conference About?&lt;/h2&gt;&#xA;&lt;p&gt;The presentation, titled “AI in Healthcare: Interpretability, Ethics, and Real-World Application,” will explore how AI can support clinical decisions. I’ll focus on AI interpretability and navigating its ethical landscape. Whether you’re a fellow student, a professor, or just curious about AI, this conference will offer insights into how AI works behind the scenes and why it matters for healthcare&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Cybersecurity: Attack and Defence in the Era of AI</title>
       <link>http://localhost:1313/blogs/cybersecurity-attack-and-defence-in-the-era-of-ai/</link>
