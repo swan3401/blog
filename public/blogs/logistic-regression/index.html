@@ -3,7 +3,7 @@
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Generalized Linear Models - Hafizulloh Ergashev</title>
+        <title>Logistic regression - Hafizulloh Ergashev</title>
         
 
 
@@ -355,39 +355,94 @@
 </script> 
         <main>
             
-<div class="container mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-8">Generalized Linear Models</h1>
-    <div class="space-y-6">
-        
-        <article class="border border-gray-700 rounded-lg p-6 bg-[#1a1a1a]">
-            <h2 class="text-2xl font-semibold mb-2">
-                <a href="../../blogs/logistic-regression/" class="hover:text-gray-300">Logistic regression</a>
-            </h2>
+    <div class="w-full md:w-4/5 lg:w-3/4 xl:w-2/3 mx-auto py-12">
+        <div class="max-w-5xl mx-auto p-8 border border-gray-800 rounded-2xl bg-[#121212]">
+            <h1 class="text-4xl font-bold mb-4">Logistic regression</h1>
             
-            <p class="text-gray-400">The article examines how logistic regression works</p>
+                <div class="flex items-center gap-4 mb-8 text-gray-400">
+                    <time datetime="2025-07-03">July 3, 2025</time>
+                    <div class="flex gap-2">
+                        
+                        <span class="px-2 py-1 bg-gray-800 rounded-md text-xs font-medium text-gray-300">Generalized Linear Models</span>
+                        
+                        <span class="px-2 py-1 bg-gray-800 rounded-md text-xs font-medium text-gray-300">Gradient Descent</span>
+                        
+                        <span class="px-2 py-1 bg-gray-800 rounded-md text-xs font-medium text-gray-300">Classification</span>
+                        
+                    </div>
+                </div>
             
-        </article>
-        
-        <article class="border border-gray-700 rounded-lg p-6 bg-[#1a1a1a]">
-            <h2 class="text-2xl font-semibold mb-2">
-                <a href="../../blogs/multiple-linear-regression/" class="hover:text-gray-300">Multiple Linear Regression</a>
-            </h2>
+
             
-            <p class="text-gray-400">This post is about multiple linear regression, gradient descent, and normal equation.</p>
+              
+            <div class="prose prose-invert max-w-none post-content">
+                <p>Logistic regression is a statistical method used for binary classification problems. It models a relationship between one or more independent variables and a binary dependent variable (yes/no, true/false, or 0/1). Unlike linear regression, which predicts continuous values, logistic regression predicts a probability that an event occurs.</p>
+<h2 id="linear-regression-for-binary-classification">Linear Regression for Binary Classification</h2>
+<p>If a solution for binary classification was required, linear regression would probably be the first approach taken:</p>
+<p><img src="./res/straight_line_classification_1.png" alt="linear regression for classification 1">
+The line closest to the points would look like the blue line shown in the image.</p>
+<p><img src="./res/straight_line_classification_2.png" alt="linear regression for classification 2">
+Afterwards, it is possible to set a threshold above which observations are considered to belong to the positive class. For example, an observation would be considered spam if it were an email, or the user would click on an ad if the data were on users. Subsequently, observations below the threshold considered negative class, meaning a user would not click on an ad or a mail is not spam. <br>
+The threshold usually set to 0.5 and in the picture it is horizontal line in the center.</p>
+<p><img src="./res/straight_line_classification_3.png" alt="linear regression for classification 2">
+Linear regression seems to work, but adding one outlier changes things considerably: the predictions for the positive class are now significantly worse than before.<br>
+Also, residuals in mean squared error no longer reflect the actual error.<br>
+The outputs are unintuitive. If the model predicts a value of 900, we could say that, according to the model, there is a high chance that the observation belongs to the positive class. But how high is that chance?</p>
+<p>Logistic regression addresses these issues.</p>
+<h2 id="hypothesis-function-for-logistic-regression">Hypothesis Function for Logistic Regression</h2>
+<p>Hypothesis function of linear regression was $ f(x) = \vec{w} \cdot \vec{x} + b $. It is possible to pass this function as an input for another function which narrows outputs between 0 and 1 in a meaningful way.</p>
+<p>Hypothesis function for logistic regression is:
+</p>
+$$
+h(x) = \frac{1}{1+e^{-f(x)}}
+$$<p>
+graph of which looks similar to the plot below:</p>
+<p><img src="./res/logistic_regression_hypothesis_graph.png" alt="hypthesis graph"></p>
+<p>High output values result in a value close to 1, while small outputs are converted to a value close to 0. In this way, predictions from logistic regression can be interpreted as the probability that an observation belongs to the positive class. Although these predictions are not actual probabilities, they are highly accurate.</p>
+<h3 id="decision-boundary">Decision Boundary</h3>
+<p>The aforementioned threshold can now be adjusted adaptively. For example, a bank could set a higher threshold for lending money, or an advertisement could be promoted to users who are less likely to click on it.</p>
+<p><img src="./res/decision_boundary.png" alt="linear decision boundary"></p>
+<p>The threshold referred as <strong>&lsquo;decision boundary&rsquo;</strong> on graph, it is a surface that splits the space into two. In the picture above negative class points are grey and positive class points are blue.</p>
+<p><img src="./res/decision_boundary_poly.png" alt="polynomial decision boundary">
+If polynomial features are used to capture complex relationships, decision boundary could be a circle, ellipse or other freeform shape where points less than 1 are inside the shape.</p>
+<h2 id="loss-function">Loss Function</h2>
+<p>Cost function in linear regression measures the mean squred distance between prediction and actual value and expressed as:
+</p>
+$$
+    J(w,b) = \frac{1}{m} \sum_{i=1}^{m} ( \frac{1}{2} wx^{(i)} + b - y^{(i)} )^2
+$$<p>It is not suitable for classification, since it does not reflect reality and performs poorly.</p>
+<p>In logistic regression instead of distance $ \frac{1}{2} wx^{(i)} + b - y^{(i)} $ <strong>loss</strong> is measured:
+</p>
+$$
+L(x^{(i)}) = \begin{cases} 
+-log(wx^{(i)} + b - y^{(i)}), & \mbox{if } y^{(i)} = 1 \\ 
+-log(1 - wx^{(i)} + b - y^{(i)}), & \mbox{if } y^{(i)} = 0 
+\end{cases}
+$$<p>The loss function returns small values for correct predictions and grater values for errors, even captures how big or small the errors or losses are.</p>
+<p>The loss function can be simplified into the following expression:
+</p>
+$$
+L(x^{(i)}) = -y^{(i)}log(wx^{(i)} + b - y^{(i)}) - (1-y^{(i)})log(1 - wx^{(i)} + b - y^{(i)})
+$$<p>This way, the calculation of the unsuitable loss is cancelled out by being multiplied by 0.</p>
+<p>Cost function for logistic regression now is:
+</p>
+$$
+J(\vec{w},b) = \frac{1}{m} \sum_{i=1}^{m}[L(x^{(i)})]
+$$<h2 id="gradient-descent">Gradient Descent</h2>
+<p>The gradient descent for logistic regression stays as usual, just the derivatives from the cost function are different now:</p>
+$$
+    w_1 := w_1 - \alpha \times [ \frac{1}{m} \sum_{i=1}^{m} (\vec{w} \cdot \vec{x}^{(i)} + b - y^{(i)})x_1^{(i)} ] \\ 
+    \vdots \\ 
+    w_n := w_n - \alpha \times [ \frac{1}{m} \sum_{i=1}^{m} ( \vec{w} \cdot \vec{x}^{(i)} + b - y^{(i)} )x_n^{(i)} ]
+$$<p>
+</p>
+$$
+    b := b - \alpha \times [ \frac{1}{m} \sum_{i=1}^{m} (\vec{w} \cdot \vec{x}^{(i)} + b - y^{(i)}) ]
+$$
+            </div>
             
-        </article>
-        
-        <article class="border border-gray-700 rounded-lg p-6 bg-[#1a1a1a]">
-            <h2 class="text-2xl font-semibold mb-2">
-                <a href="../../blogs/simple-linear-regression/" class="hover:text-gray-300">Univariate Linear Regression: Simple Linear Regression</a>
-            </h2>
-            
-            <p class="text-gray-400">This article provides a comprehensive explanation of simple linear regression. It covers topics such as linear functions and adjusting parameters of linear regression using gradient descent.</p>
-            
-        </article>
-        
+        </div>
     </div>
-</div>
 
         </main>
         

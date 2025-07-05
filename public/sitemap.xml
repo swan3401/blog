@@ -2,25 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blogs/event-invitation/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/classification/</loc>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/generalized-linear-models/</loc>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gradient-descent/</loc>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/logistic-regression/</loc>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/supervised-learning/</loc>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/theory/</loc>
+    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/event-invitation/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/other/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/other/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/activity-report/</loc>
@@ -35,12 +53,6 @@
     <loc>http://localhost:1313/tags/ethics/</loc>
     <lastmod>2025-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/generalized-linear-models/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/gradient-descent/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/linear-regression/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -48,12 +60,6 @@
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/normal-equation/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/supervised-learning/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/theory/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/ai-and-machine-learning-in-criminal-investigations/</loc>
