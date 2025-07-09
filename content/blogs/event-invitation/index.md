@@ -8,23 +8,51 @@ description: "I would like to invite you to a webinar that I am organising on 17
 featured: true
 ---
 
-Hey everyone! I would like to invite you to my upcoming conference on 17 September.
+Hey everyone! I would like to invite you to my upcoming conference on 17 September 2025, 13:00 UK Time.
 
 ## What’s the Conference About?
+The presentation, titled "AI in Healthcare: Interpretability, Ethics and Real-World Applications”, will explore how AI can inform clinical decision-making. It will focus on the role of AI in healthcare, its interpretability, and navigating its ethical landscape. Whether you’re a fellow student, a professor, or simply interested in AI, this conference will provide valuable insights into how AI operates behind the scenes and its importance for healthcare.
 
-The presentation, titled “AI in Healthcare: Interpretability, Ethics, and Real-World Application,” will explore how AI can support clinical decisions. I’ll focus on AI interpretability and navigating its ethical landscape. Whether you’re a fellow student, a professor, or just curious about AI, this conference will offer insights into how AI works behind the scenes and why it matters for healthcare
+## Themes to be discussed:
 
-## What I’ll Be Discussing
+- AI in Medical Imaging
+- Predictive Analytics for Patient Outcomes
+- Ethical Considerations in AI Healthcare
+- AI in Drug Discovery
+- AI Interpretability
+- Case Studies of AI in Clinical Settings
 
-- The Black Box of AI: I’ll demonstrate tools like LIME and SHAP, which help explain what influences AI predictions in healthcare. I’ll break down the math behind AI “learning,” showing how models fine-tune themselves through optimization. Expect clear, visual explanations of this process — no PhD required
+>Topics are indicative
 
-- Ethical Challenges: I’ll discuss real-world issues AI is facing in its integration process, like bias in data, accountability for AI-driven decisions, protecting patient privacy, and the need for clinical validation. These aren’t just technical problems — they’re ethical puzzles that require decisions based on our values. These decisions provide a framework for the integration of AI, helping to make it a reliable partner in medicine
+## Setting
+
+The conference is fully online and organised via Zoom. International students, researchers, and professionals interested in AI and healthcare are invited to participate as speakers and listeners. Attendance is free for all.
 
 ## Get Involved
 
 This conference is a chance to see AI in healthcare from a fresh perspective. You’ll see how AI models “think”, why their decisions need to be interpretable, and what ethical challenges we face as we integrate AI into medicine.
 
-The presentation will take place at the International Digital University (IDU) campus on 17 September. There will also be an opportunity to participate online.
-I will update this post closer to the event date with the exact details, including the time and the online meeting link.
+### [Register Now](https://form.jotform.com/251888758965079)
 
-![Poster](poster.png)
+<br>
+
+## FAQ
+
+<details>
+  <summary>Interested in speaking?</summary>
+  You can contact me via <a href="mailto:H.Ergashev@wlv.ac.uk">email</a>
+</details>
+<details>
+  <summary>How to join?</summary>
+  Registered attendees will receive a Zoom link before the event
+</details>
+<details>
+  <summary>Will sessions be recorded?</summary>
+  Yes, they are recorded and shared through this webpage.
+</details>
+
+
+
+
+
+<!-- ![Poster](poster.png) -->
