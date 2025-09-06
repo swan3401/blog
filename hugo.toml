@@ -210,10 +210,18 @@ period = "Oct 2021 - May 2022"
 # link = "https://github.com/loremipsum/excepteur"
 
 [[params.blogs]]
+title = "Support Vector Machines: linearly separable case"
+date = "2025-09-04"
+summary = "The post examines how SVM classifies data based on support vectors"
+tags = ["Margin-based Classifiers", "Discriminative Models", "Classification"]
+featured = true
+link = "/blogs/support-vector-machines-part-1/"
+
+[[params.blogs]]
 title = "Logistic regression"
 date = "2025-07-03"
 summary = "The article examines how logistic regression works"
-tags = ["Theory", "Supervised Learning"]
+tags = ["Generalized Linear Models", "Gradient Descent", "Classification"]
 featured = true
 link = "/blogs/logistic-regression/"
 

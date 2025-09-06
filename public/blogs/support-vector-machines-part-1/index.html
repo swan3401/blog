@@ -3,7 +3,7 @@
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Theory - Hafizulloh Ergashev</title>
+        <title>Support Vector Machines: linearly separable case - Hafizulloh Ergashev</title>
         
 
 
@@ -355,48 +355,116 @@
 </script> 
         <main>
             
-<div class="container mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-8">Theory</h1>
-    <div class="space-y-6">
-        
-        <article class="border border-gray-700 rounded-lg p-6 bg-[#1a1a1a]">
-            <h2 class="text-2xl font-semibold mb-2">
-                <a href="../../blogs/support-vector-machines-part-1/" class="hover:text-gray-300">Support Vector Machines: linearly separable case</a>
-            </h2>
+    <div class="w-full md:w-4/5 lg:w-3/4 xl:w-2/3 mx-auto py-12">
+        <div class="max-w-5xl mx-auto p-8 border border-gray-800 rounded-2xl bg-[#121212]">
+            <h1 class="text-4xl font-bold mb-4">Support Vector Machines: linearly separable case</h1>
             
-            <p class="text-gray-400">The post examines how SVM classifies data based on support vectors</p>
+                <div class="flex items-center gap-4 mb-8 text-gray-400">
+                    <time datetime="2025-09-04">September 4, 2025</time>
+                    <div class="flex gap-2">
+                        
+                        <span class="px-2 py-1 bg-gray-800 rounded-md text-xs font-medium text-gray-300">Margin-based Classifiers</span>
+                        
+                        <span class="px-2 py-1 bg-gray-800 rounded-md text-xs font-medium text-gray-300">Discriminative Models</span>
+                        
+                        <span class="px-2 py-1 bg-gray-800 rounded-md text-xs font-medium text-gray-300">Classification</span>
+                        
+                    </div>
+                </div>
             
-        </article>
-        
-        <article class="border border-gray-700 rounded-lg p-6 bg-[#1a1a1a]">
-            <h2 class="text-2xl font-semibold mb-2">
-                <a href="../../blogs/logistic-regression/" class="hover:text-gray-300">Logistic regression</a>
-            </h2>
+
             
-            <p class="text-gray-400">The article examines how logistic regression works</p>
+              
+            <div class="prose prose-invert max-w-none post-content">
+                <p><strong>Previous article:</strong> <a href="../../blogs/logistic-regression/">Logistic Regression</a></p>
+<p><strong>Support vector machines (SVM)</strong> is a supervised learning algorithm that can be used for both classification and regression. SVMs were primarily developed for binary classification, which is the focus of this article, but extensions for multi-class classification also exist.</p>
+<hr>
+<p><img src="./res/balanced-decision-boundary.png" alt="balanced decision boundary"></p>
+<p>In a previous post on logistic regression, a decision boundary - a hyperplane that separates data points in feature space - was briefly mentioned. <br>
+Decision boundary is defined as $ \vec{w} \cdot \vec{x} + b = 0 $ which is the general form for any hyperplane.</p>
+<hr>
+<p><img src="./res/imbalanced-decision-boundary.png" alt="imbalanced decision boundary"></p>
+<p>Logistic regression, when classes are balanced (there are similar number of examples in each class) and there are no outliers, positions the hyperplane well. Otherwise, the class with more examples or outliers &lsquo;pulls&rsquo; the hyperplane.</p>
+<hr>
+<p><img src="./res/imbalanced-decision-boundary-problem.png" alt="imbalanced decision boundary problem"></p>
+<p>This creates problems with unseen data in the future, so the model may not handle even small fluctuations.</p>
+<hr>
+<p><img src="./res/imbalanced-decision-boundary-adjusted.png" alt="imbalanced decision boundary adjusted"></p>
+<p>In the case of logistic regression, this problem can be partially compensated for by changing the classification threshold. <br>
+The classification boundary is a hyperplane that overlaps with the decision boundary when the threshold is set to $0.5$. Lowering the threshold shifts the classification boundary perpendicular to the negative class, and vice versa. <br>
+However, this is not the purpose of the threshold, and the resulting hyperplane is not ideal.</p>
+<hr>
+<p><img src="./res/best-hyperplane-widest-margin.png" alt="best hyperplane"></p>
+<p>SVM proposes placing the hyperplane between the classes as far as possible. This ensures that data points are classified fairly based on how close they are to the classes.</p>
+<hr>
+<p><img src="./res/margin-definition.png" alt="margin"></p>
+<p>The margin hyperplanes (the dashed lines in the picture above) for SVM are defined as:</p>
+$$ \vec{w} \cdot \vec{x} + b = \pm 1 $$<p>They also called <strong>hard margin</strong> (soft margin will be covered in the next post).</p>
+<p>The margin hyperplanes could be set to any other arbitrary positive number, for example to $c$: $ \vec{w} \cdot \vec{x} + b = \pm c $ , divide the both sides of the equation\s by $c$ : $ \frac{\vec{w}}{c} \cdot \vec{x} + \frac{b}{c} = \pm 1 $ <br>
+So $ c $ only scales $ \vec{w} $ and $ b $ meaning, geometrically, there is no difference, even though it scales the <strong>functional margin</strong>, which measures how far a data point is from the hyperplane. <strong>Functional margin</strong>: $ \vec{w} \cdot \vec{x}^{(i)} + b $ is an output of the model for a given data point $ \vec{x}^{(i)} $. This output determines whether the data point should be classified as a positive or negative sample (positive if greater than 0, and vice versa). Scaling functional margin doesn&rsquo;t affect how model performs</p>
+<hr>
+<p><img src="./res/orthogonal-vector-to-hyperplane.png" alt="orthogonal vector"></p>
+<p>For any hyperplane $ \vec{w} \cdot \vec{x} + b = 0 $ vector $ \vec{w} $ is orthogonal (perpendicular) to the hyperplane. This property will be utilised later.</p>
+<hr>
+<p><img src="./res/support-vectors.png" alt="support vectors"></p>
+<p>If the decision boundary is placed ideally, there will be at least two points on the margin hyperplanes.</p>
+<hr>
+<p><img src="./res/vector-subtraction.png" alt="vector subtraction"></p>
+<p>Subtracting one vector from another creates a new vector: $ \vec{x}^{(+)} - \vec{x}^{(-)} $ that connects the margin hyperplanes.</p>
+<hr>
+<p><img src="./res/geometric-margin-width.png" alt="geometric margin"></p>
+<p>The resultant vector ($ \vec{x}^{(+)} - \vec{x}^{(-)} $) multiplied by <strong>unit vector</strong> $ \hat{w} $ will yield the length of the projected vector. Since $ \vec{w} $ orthogonal to the hyperplane and margin hyperplanes, this length is the distance between the margin hyperplanes.<br>
+Vector multiplications geometrically interpreted as projecting one vector onto another (more details will be below).<br>
+Unit vector $ \hat{w} $ is scaled down vector $ \vec{w} $, so that the length of the vector now is 1.</p>
+<hr>
+<p><img src="./res/vector-projection.png" alt="projection"></p>
+<p>As I mentioned, vector multiplication can be interpreted geometrically as a projection. For example, there are two vectors $ \vec{v} $ and $ \hat{w} $ and a hyperplane parallel to $ \hat{w} $ was created for easier understanding. Lights coming from an angle perpendicular to $ \hat{w} $ would create a shadow, as demonstrated above.<br>
+The same idea sometimes articulated as the closest vector to $ \vec{v} $ on the hyperplane.<br>
+Slightly different view point is $ \hat{w} \cdot \vec{v} $ shows how far $ \vec{v} $ goes in the direction of $ \hat{w} $.</p>
+<p>On its own $ \hat{w} \cdot \vec{v} $ produces a scalar, which is a length $ l $ of the projection. The projection of $ \vec{v} $ onto $ \hat{w} $ can be constructed by multiplying the unit vector with the resultant length: $ \hat{w} \cdot l $</p>
+<p>Unit vector in the direction of any vector can be calculated by scaling down the components of a vector by its length:</p>
+$$ \hat{v} = \frac{\vec{v}}{||\vec{v}||} = \frac{\begin{bmatrix} v_{1} & v_{2} & \cdots & v_{n}  \end{bmatrix}}{\sqrt{v_{1}^2 + v_{2}^2 + \cdots + v_{n}^2}} $$<hr>
+<p>Now, why $ \vec{x}^{(+)} - \vec{x}^{(-)} \cdot \hat{w} $ calculates the distance between hard margin hyperplanes should be clearer. Expanding values in the expression allows to identify what are the values that affect the margin:</p>
+<p>It is guaranteed that the $ \vec{x}^{(+)} $ is on the positive margin hyperplane (from the beginning the $ \vec{x}^{(+)} $ was treated as a point on the hyperplane). This allows to substitute $ \vec{x} $ with $ \vec{x}^{(+)} $ in the hyperplane formula:<br>
+   $ \vec{w} \cdot \vec{x}^{(+)} + b = 1 $<br>
+   $ \rightarrow \vec{x}^{(+)} = \frac{1-b}{\vec{w}} $</p>
+<p>Analogically, $ \vec{x}^{(-)} $ can be substituted with:<br>
+   $ \vec{w} \cdot \vec{x}^{(-)} + b = -1 $<br>
+   $ \rightarrow \vec{x}^{(-)} = -\frac{1+b}{\vec{w}} $</p>
+<p>The unit vector is expanded as:
+$ \hat{w} = \frac{\vec{w}}{||\vec{w}||} $</p>
+<p>So, $ \vec{x}^{(+)} - \vec{x}^{(-)} \cdot \hat{w} $ becomes:</p>
+$$ \left( \frac{1-b}{\vec{w}} - \left( -\frac{1+b}{\vec{w}} \right) \right) \cdot \frac{\vec{w}}{||\vec{w}||}  $$<p>The vectors $ \vec{w} $ cancel out:</p>
+$$ \left( 1-b + 1+b \right) \cdot \frac{1}{||\vec{w}||}  $$<p>The conclusion is straightforward. The margin is inversely proportional to the length of the vector $\vec{w}$ : $\frac{2}{||\vec{w}||}$. So, the objective now is maximising this expression. However, in SVM, for mathematical convenience, another equivalent problem is solved:</p>
+$$ \text{max}\left(\frac{2}{||\vec{w}||} \right) \Longleftrightarrow \text{min}\left(||\vec{w}||\right) \Longleftrightarrow \boxed{\text{min}\left(\frac{1}{2} ||\vec{w}||^{2} \right)} $$<p>Other than the new minimisation problem there are constraints, that enforce the predictions $h(x)=\vec{w} \cdot \vec{x}+b$ to be outside of the margin space:</p>
+<p><img src="./res/margin-definition.png" alt="constraints"></p>
+$$
+\vec{w} \cdot \vec{x}^{(i)} + b \geq 1 \quad \text{for} \quad  y^{(i)}=1 \quad \text{(for positive class examples)} \\
+\vec{w} \cdot \vec{x}^{(i)} + b \leq -1 \quad \text{for} \quad  y^{(i)}=-1 \quad \text{(for negative class examples)}
+$$<p>If left and right sides of the constraints multiplied by $ y^{(i)} $, both expression will have the same look, which simplifies the task:
+</p>
+$$ y^{(i)} \left( \vec{w} \cdot \vec{x}^{(i)} + b \right) \geq 1 $$<p>Once there are an optimisation problem $\left( \text{min}\left(\frac{1}{2} ||\vec{w}||^{2} \right) \right)$ and constraints  $ \left( y^{(i)} \left( \vec{w} \cdot \vec{x}^{(i)} + b \right) \geq 1 \right)$, it is possible to apply method called Lagrange multipliers with Karush-Kuhn-Tucker (KKT) conditions and find the minimum.</p>
+<p>$ \longrightarrow $ For this, each constraint written in required form:
+</p>
+$$ g_i(\vec{w},b)=1-y^{(i)}(\vec{w}\cdot\vec{x}^{(i)}+b) \leq 0 $$<p>$ \longrightarrow $ The <em>Lagrangian</em> formed:
+</p>
+$$ \mathcal{L}(\vec{w},b,\alpha) = \frac{1}{2}||\vec{w}||^{2} + \sum_{i=1}^{m}\alpha_i \left(1-y^{(i)}\left(\vec{w}\cdot\vec{x}^{(i)}+b\right)\right), \quad \alpha_i \geq 0 $$<p>$ \longrightarrow $ KKT conditions applied: <br></p>
+<p>$ \rightarrow $ Stationarity w.r.t. $ w $ :
+</p>
+$$ \nabla_w \mathcal{L} = w - \sum_{i=1}^{m} \alpha_i y^{(i)} x^{(i)} = 0 \quad \Rightarrow \quad w = \sum_{i=1}^{m} \alpha_i y^{(i)} x^{(i)} $$<p>$ \rightarrow $ Stationarity w.r.t. $ b $ :
+</p>
+$$ \frac{\partial \mathcal{L}}{\partial b} = - \sum_{i=1}^{m} \alpha_i y^{(i)} = 0 \quad \Rightarrow \quad \sum_{i=1}^{m} \alpha_i y^{(i)} = 0  $$<p>$ \rightarrow $ Complementary slackness:
+</p>
+$$ \alpha_i \cdot g_i(\vec{w},b) = \alpha_i \left(1-y^{(i)}(\vec{w}\cdot\vec{x}^{(i)}+b) \right) = 0, \text{ for all } i $$<p>$ \longrightarrow $ And plugging the resultant values back to Lagrangian yields the dual problem:
+</p>
+$$ \max_{\alpha} = \sum_{i=1}^{m}\alpha_i - \frac{1}{2} \sum_{i=1}^{m}\sum_{j=1}^{m} \alpha_i\alpha_j y^{(i)}y^{(j)}\left(\vec{x}^{(i)} \cdot \vec{x}^{(j)} \right) $$<p>
+subject to
+</p>
+$$ \alpha_i \geq 0, \quad \sum_{i=1}^{m} \alpha_i y^{(i)} = 0 $$
+            </div>
             
-        </article>
-        
-        <article class="border border-gray-700 rounded-lg p-6 bg-[#1a1a1a]">
-            <h2 class="text-2xl font-semibold mb-2">
-                <a href="../../blogs/multiple-linear-regression/" class="hover:text-gray-300">Multiple Linear Regression</a>
-            </h2>
-            
-            <p class="text-gray-400">This post is about multiple linear regression, gradient descent, and normal equation.</p>
-            
-        </article>
-        
-        <article class="border border-gray-700 rounded-lg p-6 bg-[#1a1a1a]">
-            <h2 class="text-2xl font-semibold mb-2">
-                <a href="../../blogs/simple-linear-regression/" class="hover:text-gray-300">Univariate Linear Regression: Simple Linear Regression</a>
-            </h2>
-            
-            <p class="text-gray-400">This article provides a comprehensive explanation of simple linear regression. It covers topics such as linear functions and adjusting parameters of linear regression using gradient descent.</p>
-            
-        </article>
-        
+        </div>
     </div>
-</div>
 
         </main>
         

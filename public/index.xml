@@ -6,8 +6,15 @@
     <description>Recent content on Hafizulloh Ergashev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Support Vector Machines: linearly separable case</title>
+      <link>http://localhost:1313/blogs/support-vector-machines-part-1/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/support-vector-machines-part-1/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Previous article:&lt;/strong&gt; &lt;a href=&#34;./blogs/logistic-regression/&#34;&gt;Logistic Regression&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Support vector machines (SVM)&lt;/strong&gt; is a supervised learning algorithm that can be used for both classification and regression. SVMs were primarily developed for binary classification, which is the focus of this article, but extensions for multi-class classification also exist.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./res/balanced-decision-boundary.png&#34; alt=&#34;balanced decision boundary&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In a previous post on logistic regression, a decision boundary - a hyperplane that separates data points in feature space - was briefly mentioned. &lt;br&gt;&#xA;Decision boundary is defined as $ \vec{w} \cdot \vec{x} + b = 0 $ which is the general form for any hyperplane.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Logistic regression</title>
       <link>http://localhost:1313/blogs/logistic-regression/</link>
