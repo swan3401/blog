@@ -8,7 +8,7 @@ description: "I would like to invite you to a webinar that I am organising on 17
 featured: true
 ---
 
-Hey everyone! I would like to invite you to my upcoming conference on 17 September 2025, 14:00 UK Time.
+Hey everyone! I would like to invite you to my upcoming conference on 17 September 2025, 14:00 GMT.
 
 ## What’s the Conference About?
 The presentation, titled "AI in Healthcare: Interpretability, Ethics and Real-World Applications”, will explore how AI can inform clinical decision-making. It will focus on the role of AI in healthcare, its interpretability, and navigating its ethical landscape. Whether you’re a fellow student, a professor, or simply interested in AI, this conference will provide valuable insights into how AI operates behind the scenes and its importance for healthcare.
