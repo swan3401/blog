@@ -33,7 +33,7 @@ Cost: Completely free<br>
 Bonus: All sessions recorded and available afterward<br>
 
 ## Get Involved
-This event provides a chance to see AI in healthcare from experts perspectives. You'll see how AI models are being implemented to educate future healthcare professionals and save lives.
+This event provides a chance to see AI in healthcare from the perspectives of experts in the field. You'll see how AI models are being implemented to educate future healthcare professionals and save lives.
 ### [Register Now](https://form.jotform.com/251888758965079)
 
 <br>
