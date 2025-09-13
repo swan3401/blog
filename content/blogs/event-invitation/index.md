@@ -34,13 +34,11 @@ Bonus: All sessions recorded and available afterward<br>
 
 ## Get Involved
 This event provides a chance to see AI in healthcare from experts perspectives. You'll see how AI models are being implemented to educate future healthcare professionals and save lives.
-
 ### [Register Now](https://form.jotform.com/251888758965079)
 
 <br>
 
 ## FAQ
-
 <details>
   <summary>Interested in speaking?</summary>
   You can contact me via <a href="mailto:H.Ergashev@wlv.ac.uk">email</a>
@@ -54,8 +52,4 @@ This event provides a chance to see AI in healthcare from experts perspectives. 
   Yes, they are recorded and shared through this webpage.
 </details>
 
-
-
-
-
-<!-- ![Poster](poster.png) -->
+![Poster](poster.png)
