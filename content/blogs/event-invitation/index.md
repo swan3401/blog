@@ -8,29 +8,32 @@ description: "I would like to invite you to a webinar that I am organising on 17
 featured: true
 ---
 
-Hey everyone! I would like to invite you to my upcoming conference on 17 September 2025, 14:00 GMT.
+Hey everyone! I'm excited to invite you to my upcoming AI & Healthcare conference on September 17, 2025, at 14:00 GMT.
 
-## What’s the Conference About?
-The presentation, titled "AI in Healthcare: Interpretability, Ethics and Real-World Applications”, will explore how AI can inform clinical decision-making. It will focus on the role of AI in healthcare, its interpretability, and navigating its ethical landscape. Whether you’re a fellow student, a professor, or simply interested in AI, this conference will provide valuable insights into how AI operates behind the scenes and its importance for healthcare.
+## What to expect
 
-## Themes to be discussed:
+This isn't just theory - you'll see AI in action through two presentations with interactive Q&A:
 
-- AI in Medical Imaging
-- Predictive Analytics for Patient Outcomes
-- Ethical Considerations in AI Healthcare
-- AI in Drug Discovery
-- AI Interpretability
-- Case Studies of AI in Clinical Settings
+Dr Ourania Varsou will demonstrate how generative AI is currently transforming healthcare education, using real case studies to show how AI can personalise learning and support students and educators with practical, ethical solutions.
 
->Topics are indicative
+Dr Floris den Hengst will explore how AI is being used to make life-or-death decisions in mechanical ventilation. He will showcase reinforcement learning systems that reduce patient mortality while maintaning safety standards.
 
-## Setting
+You'll find:
+- How AI is being ethically integrated into healthcare education
+- Real clinical AI systems that are improving patient outcomes
+- Insights into career pathways in the field
+- The actual challenges professionals face when implementing AI in healthcare
 
-The conference is fully online and organised via Zoom. International students, researchers, and professionals interested in AI and healthcare are invited to participate as speakers and listeners. Attendance is free for all.
+
+## The Details
+When: September 17, 2025, 14:00 GMT<br>
+Where: Zoom (fully online)<br>
+Duration: ~90 minutes with interactive Q&A<br>
+Cost: Completely free<br>
+Bonus: All sessions recorded and available afterward<br>
 
 ## Get Involved
-
-This conference is a chance to see AI in healthcare from a fresh perspective. You’ll see how AI models “think”, why their decisions need to be interpretable, and what ethical challenges we face as we integrate AI into medicine.
+This event provides a chance to see AI in healthcare from experts perspectives. You'll see how AI models are being implemented to educate future healthcare professionals and save lives.
 
 ### [Register Now](https://form.jotform.com/251888758965079)
 
